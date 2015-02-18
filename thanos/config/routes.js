@@ -33,6 +33,15 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
+    view: 'jump'
+  },
+  'GET /resourceModel':{
+    view: 'resourceModel'
+  },
+  'GET /reportGen':{
+    view: 'reportGen'
+  },
+  '/info':{
     view: 'homepage'
   }
 
