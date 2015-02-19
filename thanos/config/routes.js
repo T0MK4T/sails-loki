@@ -36,7 +36,7 @@ module.exports.routes = {
     view: 'jump'
   },
   'GET /resourceModel':{
-    view: 'resourceModel'
+    view: '503'
   },
   'GET /reportGen':{
     view: 'reportGen'
